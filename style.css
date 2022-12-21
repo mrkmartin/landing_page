@@ -115,9 +115,7 @@ a {
 .random-info {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 1px;
-  border: 1px solid black;
+  margin-top: 50px;
 }
 
 .img {
@@ -133,5 +131,25 @@ a {
 }
 
 .quote {
+  height: 50vh;
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote p {
+  width: 70%;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  text-align: left;
+}
+
+#person {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
 }
